@@ -161,7 +161,7 @@ ul {
     background-color: var(--color-button-hover);
 }
 
-@media (max-width: 390px) and (max-height: 844px) {
+@media (max-width: 100rem) {
     body {
         flex-direction: column;
         padding: 10px;
