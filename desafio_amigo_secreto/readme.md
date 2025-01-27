@@ -25,4 +25,4 @@
 
 
 Para acessar o programa: 
-<a href="https://one-oracle-next-education-snowy.vercel.app/" rel="nofollow">clique aqui</a>
+<a href="https://amigooculto-eight.vercel.app/" rel="nofollow">clique aqui</a>
