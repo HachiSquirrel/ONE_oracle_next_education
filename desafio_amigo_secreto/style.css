@@ -160,3 +160,85 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+@media (max-width: 390px) and (max-height: 844px) {
+    body {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .main-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .header-banner {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    .main-title {
+        font-size: 32px; /* Reduz o título para caber na tela */
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .input-section {
+        flex: none;
+        padding: 20px 10px;
+        border-radius: 32px 32px 0 0;
+    }
+
+    .section-title {
+        font-size: 24px; /* Títulos menores */
+        margin: 10px 0;
+    }
+
+    .input-wrapper {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .input-name {
+        width: 100%;
+        font-size: 14px; /* Reduz a fonte */
+        margin-bottom: 10px;
+        border-radius: 25px;
+    }
+
+    .button-container {
+        width: 100%; /* Botões ocupam toda a largura */
+        margin-top: 10px;
+    }
+
+    button {
+        font-size: 14px; /* Fonte menor para botões */
+        padding: 12px;
+        width: 100%; /* Botões ocupam toda a largura */
+    }
+
+    .button-add {
+        width: 100%;
+    }
+
+    .button-draw {
+        flex-direction: column;
+        padding: 12px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .button-draw img {
+        margin: 0 0 10px;
+    }
+
+    ul {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .result-list {
+        font-size: 16px;
+        text-align: center;
+    }
+}
